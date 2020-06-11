@@ -10,10 +10,10 @@ app.use(express.static(__dirname + '/public'));
 app.get("/", function(req,res){
     res.render("projects");
 });
-
 app.get("/projects", function(req,res){
     res.render("projects");
 });
+
 
 app.get("/projects/affirmation", function(req,res){
     res.render("affirmation");
