@@ -50,11 +50,22 @@ h1,h2,h3,h4,h5,a{
 
 /*____________SPECIFICS________________ */
 
+@media(min-width:60em){html{font-size: 100%}}
 #MyName{
- font-size: 2.5em;
+ font-size: 3vw;
+ margin-left: 2%;
+ font-size-adjust: 0.58;
+
 }
+
+
 
 #mycontainer{
     margin-left:3%;
     margin-right:3%;
+}
+
+#myMenuContainer{
+    margin-left: 3%;
+    margin-right: 3%;
 }
