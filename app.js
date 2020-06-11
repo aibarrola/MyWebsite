@@ -14,11 +14,17 @@ app.get("/projects", function(req,res){
     res.render("projects");
 });
 
-
 app.get("/projects/affirmation", function(req,res){
     res.render("affirmation");
 });
 
+app.get("/about", function(req,res){
+    res.render("about");
+});
+
+app.get("/leader", function(req,res){
+    res.render("leader");
+});
 
 
 
