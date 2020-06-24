@@ -15,7 +15,7 @@ app.get("/projects", function(req,res){
 });
 
 app.get("/projects/affirmation", function(req,res){
-    res.render("affirmation");
+    res.render("projects/affirmation");
 });
 
 app.get("/about", function(req,res){
