@@ -22,6 +22,10 @@ app.get("/projects/pairingtool", function(req,res){
     res.render("projects/pairingtool");
 });
 
+app.get("/projects/schedulemaster", function(req,res){
+    res.render("projects/schedulemaster");
+});
+
 app.get("/about", function(req,res){
     res.render("about");
 });
