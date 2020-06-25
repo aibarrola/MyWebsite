@@ -26,6 +26,10 @@ app.get("/projects/schedulemaster", function(req,res){
     res.render("projects/schedulemaster");
 });
 
+app.get("/projects/coronaAdventure", function(req,res){
+    res.render("projects/coronaAdventure");
+});
+
 app.get("/about", function(req,res){
     res.render("about");
 });
