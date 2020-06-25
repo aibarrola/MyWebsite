@@ -1,4 +1,4 @@
-/* ___________GENERAL STYLES___________ */
+___________GENERAL STYLES___________
 
 body{
     background-color: #EFF1F3;
@@ -49,6 +49,7 @@ h1,h2,h3,h4,h5,a{
     text-align:center;
 }
 
+
 /*____________SPECIFICS________________ */
 
 #MyName{
@@ -70,11 +71,31 @@ h1,h2,h3,h4,h5,a{
 
 /* ____________PROJECTS STYLING________________ */
 
-.contain{
+.contain15{
     margin-left: 15%;
     margin-right:15%;
 }
 
-.projectHeader{
-    font-size:2vw;
+.contain5{
+    margin-left: 5%;
+    margin-right: 5%;
 }
+
+.projectHeader{
+    font-size:2.5vw;
+}
+
+.textSegment{
+    line-height: 1.6;
+}
+
+
+
+/* ATTEMPTS TO MATCH GIF TO PICTURE */
+/* .ui.card>.image>img, .ui.cards>.card>.image>img>{
+    /* height: 213px; */
+/* } */
+
+/* #gifSize{
+    height:14vw;
+} */
