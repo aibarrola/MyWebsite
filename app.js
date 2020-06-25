@@ -18,6 +18,10 @@ app.get("/projects/affirmation", function(req,res){
     res.render("projects/affirmation");
 });
 
+app.get("/projects/pairingtool", function(req,res){
+    res.render("projects/pairingtool");
+});
+
 app.get("/about", function(req,res){
     res.render("about");
 });

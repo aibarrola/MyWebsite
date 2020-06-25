@@ -45,8 +45,9 @@ h1,h2,h3,h4,h5,a{
     background-color: white;
 }
 
-
-
+.center{
+    text-align:center;
+}
 
 /*____________SPECIFICS________________ */
 
@@ -57,8 +58,6 @@ h1,h2,h3,h4,h5,a{
 
 }
 
-
-
 #mycontainer{
     margin-left:3%;
     margin-right:3%;
@@ -67,4 +66,15 @@ h1,h2,h3,h4,h5,a{
 #myMenuContainer{
     margin-left: 3%;
     margin-right: 3%;
+}
+
+/* ____________PROJECTS STYLING________________ */
+
+.contain{
+    margin-left: 15%;
+    margin-right:15%;
+}
+
+.projectHeader{
+    font-size:2vw;
 }
