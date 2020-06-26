@@ -54,10 +54,8 @@ h1,h2,h3,h4,h5,a{
 /*____________SPECIFICS________________ */
 
 #MyName{
- font-size: 3vw;
- margin-left: 2%;
- font-size-adjust: 0.58;
-
+ /* font-size: 3vw; */
+ font-size: 40px;
 }
 
 #mycontainer{
