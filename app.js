@@ -30,6 +30,10 @@ app.get("/projects/coronaAdventure", function(req,res){
     res.render("projects/coronaAdventure");
 });
 
+app.get("/projects/yelpcamp", function(req,res){
+    res.render("projects/yelpcamp");
+});
+
 app.get("/about", function(req,res){
     res.render("about");
 });
