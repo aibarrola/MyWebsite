@@ -1,49 +1,60 @@
-___________GENERAL STYLES___________
+/* ___________GENERAL STYLES___________ */
 
 body{
     background-color: #EFF1F3;
 }
 
-.title{
-    color: red;
+html{
+    scroll-behavior: smooth;
 }
 
-h1,h2,h3,h4,h5,a{
+h1,h2,h3,h4,h5,a,i{
     color: #0a2342;
 }
 
+/* all icons that in an item */
+.item:hover i{
+    color:#BA2D0B;
+}
+
+/* all icons that is a link */
+a i:hover{
+    color: #BA2D0B;
+}
+
+/* all links */
+a:hover{
+    color: #0a2342;
+}
+
+/* all inverted and circular icons  */
+i.inverted.bordered.icon, i.inverted.circular.icon {
+    background-color: #0a2342!important;
+}
+
+
+/* _____MENU AND NAVBAR______ */
+
+/* top navbar items */
+.ui.menu .item{
+    color: #0a2342;
+}
+
+/* vertical icon menu */
 .ui.vertical.menu .item{
     color: #0a2342;
 }
 
-.ui.card>.content>.header, .ui.cards>.card>.content>.header {
-    color: #0a2342;
-}
-
-.ui.card .meta>a:not(.ui), .ui.cards>.card .meta>a:not(.ui) {
-    color: red;
-}
-
-.ui.card>.content, .ui.cards>.card>.content{
-    background-color: white;
-}
 
 /*____________UTILITIES________________ */
-.ui.vertical.menu .item{
-    color: #0a2342;
+.contain15{
+    margin-left: 15%;
+    margin-right:15%;
 }
 
-.ui.card>.content>.header, .ui.cards>.card>.content>.header {
-    color: #0a2342;
-}
-
-
-.ui.card .meta, .ui.cards>.card .meta {
-    color: red;
-}
-
-.ui.card>.content, .ui.cards>.card>.content{
-    background-color: white;
+.contain5{
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .center{
@@ -56,6 +67,7 @@ h1,h2,h3,h4,h5,a{
 #MyName{
  /* font-size: 3vw; */
  font-size: 40px;
+ color: #0a2342;
 }
 
 #mycontainer{
@@ -68,33 +80,34 @@ h1,h2,h3,h4,h5,a{
     margin-right: 3%;
 }
 
-/* ____________PROJECTS STYLING________________ */
 
-.contain15{
-    margin-left: 15%;
-    margin-right:15%;
+/* ________PROJECT PAGE_______  */
+
+/* PROJECT TITLE */
+.ui.card>.content>.header, .ui.cards>.card>.content>.header {
+    color: #0a2342;
 }
 
-.contain5{
-    margin-left: 5%;
-    margin-right: 5%;
+/* PROJECT TECH DESCRIPTIONS */
+.ui.card .meta, .ui.cards>.card .meta {
+    color: #BA2D0B;
 }
+
+/* PROJECT CARD BACKGROUND */
+.ui.card>.content, .ui.cards>.card>.content{
+    background-color: white;
+}
+
+
+/* ____________PROJECTS STYLING___________ */
 
 .projectHeader{
     font-size:2.5vw;
 }
 
-.textSegment{
-    line-height: 1.6;
+
+/* ________ABOUT PAGE STYLING______ */
+.about{
+    margin-top: 18%;
+    padding-bottom: 25%;
 }
-
-
-
-/* ATTEMPTS TO MATCH GIF TO PICTURE */
-/* .ui.card>.image>img, .ui.cards>.card>.image>img>{
-    /* height: 213px; */
-/* } */
-
-/* #gifSize{
-    height:14vw;
-} */
