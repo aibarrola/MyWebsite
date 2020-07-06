@@ -21,7 +21,9 @@ h1,h2,h3,h4,h5,a,i{
 a i:hover{
     color: #BA2D0B;
 }
-
+a{
+    text-decoration: none;
+}
 /* all links */
 a:hover{
     color: #0a2342;
@@ -61,6 +63,14 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
     text-align:center;
 }
 
+/* for all external link */
+.links{
+    text-decoration: underline;
+}
+.links:hover{
+    color: #BA2D0B;
+    text-decoration: underline;
+}
 
 /*____________SPECIFICS________________ */
 
@@ -83,12 +93,8 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 #volleyball{
     margin-bottom:10%;
 }
-#resume{
-    text-decoration: underline;
-}
-#resume:hover{
-    color: #BA2D0B;
-}
+
+
 /* ________PROJECT PAGE_______  */
 
 /* PROJECT TITLE */
