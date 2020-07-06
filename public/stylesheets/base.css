@@ -83,6 +83,12 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 #volleyball{
     margin-bottom:10%;
 }
+#resume{
+    text-decoration: underline;
+}
+#resume:hover{
+    color: #BA2D0B;
+}
 /* ________PROJECT PAGE_______  */
 
 /* PROJECT TITLE */
