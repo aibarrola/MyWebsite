@@ -12,6 +12,17 @@ h1,h2,h3,h4,h5,a,i{
     color: #0a2342;
 }
 
+ul{
+    list-style-type: none;
+    padding: 0px;
+    color: #0a2342;
+    font-size: 17px;
+}
+li{
+    margin-bottom: 13px;
+    margin-left: 10px;
+}
+
 /* all icons that in an item */
 .item:hover i{
     color:#BA2D0B;
@@ -21,7 +32,9 @@ h1,h2,h3,h4,h5,a,i{
 a i:hover{
     color: #BA2D0B;
 }
-
+a{
+    text-decoration: none;
+}
 /* all links */
 a:hover{
     color: #0a2342;
@@ -57,10 +70,23 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
     margin-right: 5%;
 }
 
+.contain6{
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
 .center{
     text-align:center;
 }
 
+/* for all external link */
+.links{
+    text-decoration: underline;
+}
+.links:hover{
+    color: #BA2D0B;
+    text-decoration: underline;
+}
 
 /*____________SPECIFICS________________ */
 
@@ -83,12 +109,8 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 #volleyball{
     margin-bottom:10%;
 }
-#resume{
-    text-decoration: underline;
-}
-#resume:hover{
-    color: #BA2D0B;
-}
+
+
 /* ________PROJECT PAGE_______  */
 
 /* PROJECT TITLE */
@@ -119,3 +141,81 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
     margin-top: 15%;
     padding-bottom: 25%;
 }
+
+
+/* ______LEADERSHIP STYLING______ */
+
+.leaderSection{
+    padding-top:15px;
+    padding-bottom:15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.leaderSection:hover{
+    box-shadow: 1px 1px 5px #888888;
+}
+
+.logo{
+    height:50px;
+    width: 50px;
+}
+
+.leaderThumb{
+    width: 1600px;
+    height: 835px;
+}
+
+/* vsa */
+#vsa{
+    letter-spacing: 9px;
+    font-size:65px;
+}
+#president{
+    text-align:center;
+    writing-mode: vertical-rl;
+    letter-spacing: 45px;
+    font-size: 65px;
+    height:100%;
+}
+
+#publicity{
+    text-align:center;
+    writing-mode: vertical-rl;
+    letter-spacing: 35px;
+    font-size: 65px;
+    height:100%;
+}
+
+#intern{
+    text-align:center;
+    writing-mode: vertical-rl;
+    letter-spacing: 15px;
+    font-size: 65px;
+}
+
+.vsaSection{
+    background-color: #D6DBB2;
+}
+.presidentSection{
+    background-color: #6D98BA
+}
+.publicitySection{
+    background-color: #FFBCB5;
+}
+.internSection{
+    background-color: #D6DBB2;
+}
+
+
+li > a:hover{
+    color: black;
+    border-left: 1.5px solid black;
+    padding-left: 10px;
+    margin-left: 5px;
+}
+
+li > a{
+    border-left: 1.5px solid black;
+    padding-left: 5px;
+}
+

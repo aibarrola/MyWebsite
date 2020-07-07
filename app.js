@@ -42,6 +42,9 @@ app.get("/leader", function(req,res){
     res.render("leader");
 });
 
+app.get("/leader/vsa", function(req,res){
+    res.render("leader/vsa");
+});
 
 
 app.get("*", function(req,res){
