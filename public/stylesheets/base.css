@@ -165,6 +165,13 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
     height: 835px;
 }
 
+h4 > a{
+    color: #0a2342;
+}
+h4 > a:hover{
+    color: #BA2D0B;
+}
+
 /* vsa */
 #vsa{
     letter-spacing: 9px;
