@@ -79,6 +79,12 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
     text-align:center;
 }
 
+.centerVid{
+    text-align:center;
+    margin: 0 auto;
+    width: 50%;
+}
+
 /* for all external link */
 .links{
     text-decoration: underline;
