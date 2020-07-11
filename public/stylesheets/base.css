@@ -2,6 +2,7 @@
 
 body{
     background-color: #EFF1F3;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 html{
@@ -113,6 +114,12 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 
 /* ________PROJECT PAGE_______  */
 
+.projectTools{
+    color: #BA2D0B;
+
+}
+
+
 /* PROJECT TITLE */
 .ui.card>.content>.header, .ui.cards>.card>.content>.header {
     color: #0a2342;
@@ -125,7 +132,7 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 
 /* PROJECT CARD BACKGROUND */
 .ui.card>.content, .ui.cards>.card>.content{
-    background-color: white;
+    background-color: #EFF1F3;
 }
 
 
@@ -133,6 +140,16 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 
 .projectHeader{
     font-size:2.5vw;
+}
+
+.projectSection{
+    padding-top:15px;
+    padding-bottom:15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.projectSection:hover{
+    box-shadow: 1px 1px 5px #888888;
 }
 
 
@@ -156,14 +173,10 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 }
 
 .logo{
-    height:50px;
-    width: 50px;
+    height:auto;
+    width: 100%;
 }
 
-.leaderThumb{
-    width: 1600px;
-    height: 835px;
-}
 
 h4 > a{
     color: #0a2342;
