@@ -168,9 +168,16 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 
 /* ______LEADERSHIP STYLING______ */
 
+.leaderSections{
+  margin-bottom: 10px;
+  margin-left: 4%;
+  margin-right: 4%;
+}
 .leaderSection{
     padding-top:15px;
     padding-bottom:15px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-bottom: 20px;
     border-radius: 10px;
 }
