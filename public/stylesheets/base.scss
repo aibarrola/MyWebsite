@@ -116,6 +116,7 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 .contain{
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 1%;
 }
 
 .contain15{
@@ -304,8 +305,8 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
         color: $sec-color;
     }
     background-color: $white;
-    padding-top: 3%;
-    padding-bottom: 5%;
+    padding-top: 7%;
+    padding-bottom: 8%;
     i{
         color: $sec-color;
     }
@@ -378,8 +379,8 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
         color: $sec-color;
     }
     z-index: 10;
-    padding-top: 3%;
-    padding-bottom: 5%;
+    padding-top: 7%;
+    padding-bottom: 8%;
     background-color: $off-white;
     h1,h4,i{
         color: $sec-color;
@@ -484,6 +485,7 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
     h2{
         font-size: 1.1rem;
         color: $sec-color;
+        z-index: 3;
     }
 }
 

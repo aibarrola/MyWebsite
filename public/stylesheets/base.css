@@ -77,7 +77,8 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 
 .contain {
   margin-left: 10%;
-  margin-right: 10%; }
+  margin-right: 10%;
+  margin-bottom: 1%; }
 
 .contain15 {
   margin-left: 15%;
@@ -259,8 +260,8 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 #project {
   width: 100%;
   background-color: #fff;
-  padding-top: 3%;
-  padding-bottom: 5%; }
+  padding-top: 7%;
+  padding-bottom: 8%; }
 
 #project .contain {
   margin-left: 10%;
@@ -328,8 +329,8 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 
 #experience {
   z-index: 10;
-  padding-top: 3%;
-  padding-bottom: 5%;
+  padding-top: 7%;
+  padding-bottom: 8%;
   background-color: #e6edf5; }
 
 #experience .title {
@@ -432,7 +433,8 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 
 #footer h2 {
   font-size: 1.1rem;
-  color: #2f3046; }
+  color: #2f3046;
+  z-index: 3; }
 
 /* ________PROJECT CARDS_______  */
 /* PROJECT TITLE */
