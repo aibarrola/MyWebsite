@@ -414,6 +414,15 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 #contact .content:hover .header {
   color: #589bee; }
 
+#footer {
+  background-color: #e6edf5;
+  padding-top: 2%;
+  padding-bottom: 1%; }
+
+#footer h2 {
+  font-size: 1.1rem;
+  color: #2f3046; }
+
 /* ________PROJECT CARDS_______  */
 /* PROJECT TITLE */
 .ui.card > .content > .header, .ui.cards > .card > .content > .header {
