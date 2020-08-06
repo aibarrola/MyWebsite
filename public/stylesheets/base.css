@@ -105,6 +105,10 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
   margin-left: 5%;
   margin-right: 5%; }
 
+@media screen and (max-width: 770px) {
+  #navbar {
+    display: none; } }
+
 #splash {
   padding-top: 5%;
   background-color: transparent;
