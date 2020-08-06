@@ -83,6 +83,9 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
   margin-left: 15%;
   margin-right: 15%; }
 
+.br1 {
+  margin-top: 1.5%; }
+
 /* for all external link */
 .links {
   text-decoration: underline; }
@@ -114,7 +117,7 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 #splash #overlay {
   position: absolute;
   width: 38%;
-  height: 100%;
+  height: 150%;
   top: 0;
   left: 0;
   right: 0;
@@ -128,11 +131,15 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 #splash .splash-desc {
   margin-top: 10%;
   margin-left: 30%;
-  font-size: 1.3em; }
+  font-size: 130%; }
 
 #splash h1 {
   margin-top: 10%;
   font-size: 4em; }
+
+@media screen and (max-width: 600px) {
+  #splash .splash-desc {
+    font-size: 100%; } }
 
 #splash .mouse {
   width: 100%;
@@ -312,6 +319,7 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
   stroke-dashoffset: 0; }
 
 #experience {
+  z-index: 10;
   padding-top: 3%;
   padding-bottom: 5%;
   background-color: #e6edf5; }
