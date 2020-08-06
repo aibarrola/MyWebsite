@@ -417,6 +417,9 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
         margin: 2% 10%;
     }
     background-color: $white;
+    h2{
+        font-size: 1.3rem;
+    }
     h2,a{
         color: $off-white2;
     }
@@ -435,30 +438,34 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
     }
     .title{
         font-size: 3.5rem;
-        color: $prim-color;
+        color: $sec-color;
+    }
+    h2{
+        color: $off-white2;
+        font-size: 1.3rem;
     }
     text-align: center;
-    background-color: $off-white;
-    padding: 3% 0;
+    background-color: $white;
+    padding: 15% 0;
     width: 100%;
     .header{
-        color: $off-white;
+        color: $off-white2;
     }
     .extra{
-        color: $prim-color;
+        color: $sec-color;
     }
     i{
-        color: $prim-color;
+        color: $sec-color;
     }
     i:hover{
-        color: $prim-color;
+        color: $sec-color;
     }
     .content{
         background-color: transparent;
     }
     .content:hover{
         .header{
-            color: $prim-color;
+            color: $sec-color;
         }
     }
     
@@ -466,7 +473,7 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 
 #footer{
     background-color: $off-white;
-    padding-top: 2%;
+    padding-top: 1%;
     padding-bottom: 1%;
     h2{
         font-size: 1.1rem;

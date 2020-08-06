@@ -374,6 +374,9 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 #about .contain {
   margin: 2% 10%; }
 
+#about h2 {
+  font-size: 1.3rem; }
+
 #about h2, #about a {
   color: #8899AE; }
 
@@ -385,8 +388,8 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 
 #contact {
   text-align: center;
-  background-color: #e6edf5;
-  padding: 3% 0;
+  background-color: #fff;
+  padding: 15% 0;
   width: 100%; }
 
 #contact .contain {
@@ -394,29 +397,33 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 
 #contact .title {
   font-size: 3.5rem;
-  color: #589bee; }
+  color: #2f3046; }
+
+#contact h2 {
+  color: #8899AE;
+  font-size: 1.3rem; }
 
 #contact .header {
-  color: #e6edf5; }
+  color: #8899AE; }
 
 #contact .extra {
-  color: #589bee; }
+  color: #2f3046; }
 
 #contact i {
-  color: #589bee; }
+  color: #2f3046; }
 
 #contact i:hover {
-  color: #589bee; }
+  color: #2f3046; }
 
 #contact .content {
   background-color: transparent; }
 
 #contact .content:hover .header {
-  color: #589bee; }
+  color: #2f3046; }
 
 #footer {
   background-color: #e6edf5;
-  padding-top: 2%;
+  padding-top: 1%;
   padding-bottom: 1%; }
 
 #footer h2 {
