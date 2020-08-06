@@ -60,6 +60,17 @@ a:hover{
     color: $prim-color;
 }
 
+a span{
+    writing-mode: vertical-rl;
+    padding-top: 0;
+    margin-top: 0;
+}
+a:hover span{
+    color: black;
+    writing-mode: vertical-rl;
+
+}
+
 
 
 /* all inverted and circular icons  */
@@ -105,6 +116,11 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 .contain{
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.contain15{
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 /* for all external link */
@@ -437,11 +453,13 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 /* PROJECT TECH DESCRIPTIONS */
 .ui.card .meta, .ui.cards>.card .meta {
     color: $sec-color;
+    
 }
 
 /* PROJECT CARD BACKGROUND */
 .ui.card>.content, .ui.cards>.card>.content{
     background-color: $white;
+    
 }
 
 @media only screen and (max-width: 600px){

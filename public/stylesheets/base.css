@@ -41,6 +41,15 @@ a {
 a:hover {
   color: #589bee; }
 
+a span {
+  writing-mode: vertical-rl;
+  padding-top: 0;
+  margin-top: 0; }
+
+a:hover span {
+  color: black;
+  writing-mode: vertical-rl; }
+
 /* all inverted and circular icons  */
 i.inverted.bordered.icon, i.inverted.circular.icon {
   background-color: #589bee !important; }
@@ -69,6 +78,10 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 .contain {
   margin-left: 10%;
   margin-right: 10%; }
+
+.contain15 {
+  margin-left: 15%;
+  margin-right: 15%; }
 
 /* for all external link */
 .links {
