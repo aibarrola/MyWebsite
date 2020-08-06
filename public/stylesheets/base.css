@@ -355,6 +355,13 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 #experience .one.wide.column {
   padding: 0; }
 
+#experience .exp-logo {
+  height: 60%;
+  width: auto; }
+
+#experience .three.wide.column {
+  padding: 0; }
+
 #about {
   padding-bottom: 3%;
   padding-top: 10%;
