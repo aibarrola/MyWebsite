@@ -8,9 +8,13 @@ app.use(express.static(__dirname + '/public'));
 
 
 app.get("/", function(req,res){
-    res.render("projects");
+    res.render("home");
 });
-app.get("/projects", function(req,res){
+app.get("/home", function(req,res){
+    res.render("home");
+});
+
+app.get("/projects",function(req,res){
     res.render("projects");
 });
 

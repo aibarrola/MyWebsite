@@ -1,0 +1,581 @@
+// ______THEME COLORS_______
+$white: #fff;
+$prim-color: #589bee;
+$comp-color: #bc8341;
+$off-white: #e6edf5;
+$off-white2: #8899AE;
+$sec-color: #2f3046;
+
+
+/* ___________GENERAL STYLES___________ */
+
+body{
+    background-color: $prim-color;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+html{
+    scroll-behavior: smooth;
+    height:100%;
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
+
+h1,h2,h3,h4,h5,a{
+    color: $white;
+}
+
+i{
+    color: $sec-color;
+}
+
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    color: $white;
+    font-size: 17px;
+}
+li{
+    margin-bottom: 13px;
+    margin-left: 10px;
+}
+
+/* all icons that in an item */
+.item:hover i{
+    color:$prim-color;
+}
+
+/* all icons that is a link */
+a i:hover{
+    color: $prim-color;
+}
+a{
+    text-decoration: none;
+}
+/* all links */
+a:hover{
+    color: $prim-color;
+}
+
+
+
+/* all inverted and circular icons  */
+i.inverted.bordered.icon, i.inverted.circular.icon {
+    background-color: $prim-color!important;
+}
+
+
+/* _____MENU AND NAVBAR______ */
+
+
+.ui.secondary.menu .item{
+    color:$white;
+    text-decoration: none;
+    position: relative;
+    transition: all 500ms;
+
+}
+
+
+.ui.secondary.menu .dropdown.item:hover, .ui.secondary.menu .link.item:hover, .ui.secondary.menu a.item:hover {
+    background-color: transparent;
+    color: white;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+/*____________UTILITIES________________ */
+
+.center{
+    text-align:center;
+}
+
+.centerVid{
+    text-align:center;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.contain{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* for all external link */
+.links{
+    text-decoration: underline;
+}
+.links:hover{
+    color: $off-white;
+    text-decoration: underline;
+}
+
+/*____________SPECIFICS________________ */
+
+#MyName{
+ /* font-size: 3vw; */
+ font-size: 40px;
+ color: $white;
+}
+
+#navbar{
+    background-color:$prim-color;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+// SECTIONS____________
+#splash{
+    padding-top: 5%;
+    background-color:transparent;
+    height: 100%;
+    width:100%;
+    padding-bottom: 3%;
+    margin-left: 8%;
+    margin-right: 8%;
+    #overlay {
+        position: absolute; 
+        width: 38%; 
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: .1;
+        background-color:white; /* Black background with opacity */
+        z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
+      }
+    .splash-desc{
+        margin-top: 10%;
+        margin-left: 30%;
+        font-size: 1.3em;
+    }
+    h1{
+        margin-top:10%;
+        font-size: 4em;
+    }
+    .mouse{
+        width: 100%;
+        height: 50%;
+        padding-top: 10%;
+        padding-bottom: 0;
+        text-align:center;
+        i{
+            color: $white;
+            animation: slide1 1s ease-in-out infinite;
+  
+          margin-left: 9px;
+        }
+        @keyframes slide1 {
+            0%,
+            100% {
+              transform: translate(0, 0);
+            }
+          
+            50% {
+              transform: translate(0, -10px);
+            }
+          }
+    }
+    
+.wordCarousel {
+    width: 100%;
+    padding-top: 17%;
+    padding-right: 20%;
+    font-size: 36px;
+    font-weight: 100;
+    color: #939393;
+    div {
+        overflow: hidden;
+        position: relative;
+        float: right;
+        height: 65px;
+        padding-top: 10px;
+        margin-top: -10px;
+        li {
+            color: $white;
+            font-size: 4.5vw;
+            font-weight: 600;
+            padding: 0 10px;
+            height: 45px;
+            margin-bottom: 40px;
+            display: block;
+        }
+    }
+}
+
+.flip2 { animation: flip2 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+.flip3 { animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+.flip4 { animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+
+@keyframes flip2 {
+    0% { margin-top: -180px; }
+    5% { margin-top: -90px;  }
+    50% { margin-top: -90px; }
+    55% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -270px; }
+}
+
+@keyframes flip3 {
+    0% { margin-top: -270px; }
+    5% { margin-top: -180px; }
+    33% { margin-top: -180px; }
+    38% { margin-top: -90px; }
+    66% { margin-top: -90px; }
+    71% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -270px; }
+}
+
+@keyframes flip4 {
+    0% { margin-top: -360px; }
+    5% { margin-top: -270px; }
+    25% { margin-top: -270px; }
+    30% { margin-top: -180px; }
+    50% { margin-top: -180px; }
+    55% { margin-top: -90px; }
+    75% { margin-top: -90px; }
+    80% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -270px; }
+}
+    
+
+}
+#project{
+    width:100%;
+    .contain{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .title{
+        font-size: 3.5rem;
+        color: black;
+    }
+    .meta{
+        color: $off-white2;
+    }
+    .extra{
+        color: $sec-color;
+    }
+    background-color: $white;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    i{
+        color: $sec-color;
+    }
+    i:hover{
+        color: black;
+    }
+    a{
+        color: $sec-color;
+    }
+
+
+    .centered-container {
+        margin-top: 2%;
+        background-color: $white;
+        display: inline-flex;
+        padding: 1rem;
+        border-radius: .125rem;
+        border: 1px solid #D4D4D5;
+        box-shadow: 0 1px 3px 0 #d4d4d5;
+    }
+
+    .link {
+        color: black;
+        cursor: pointer;
+        font-weight: 400;
+        text-decoration: none;
+    }
+
+    .link--arrowed {
+        display: inline-block;
+        height: 2rem;
+        line-height: 2rem;
+        font-size: 1.5rem;
+        
+        .arrow-icon {
+            position: relative;
+            top: -1px;
+            -webkit-transition: -webkit-transform 0.3s ease;
+            transition: -webkit-transform 0.3s ease;
+            transition: transform 0.3s ease;
+            transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+            vertical-align: middle;
+        }
+        
+        .arrow-icon--circle {
+            transition: stroke-dashoffset .3s ease;
+            stroke-dasharray: 95;
+            stroke-dashoffset: 95;
+        }
+        
+        &:hover {
+            .arrow-icon {
+                transform: translate3d(5px, 0, 0);
+            }
+            
+            .arrow-icon--circle {
+                stroke-dashoffset: 0;
+            }
+        }
+    }
+}
+
+
+#experience{
+    .title{
+        font-size: 3.5rem;
+        color: $sec-color;
+    }
+    .title2{
+        color: $sec-color;
+    }
+    
+    padding-top: 3%;
+    padding-bottom: 5%;
+    background-color: $off-white;
+    h1,h4,i{
+        color: $sec-color;
+    }
+    .card{
+        border: none;
+    }
+    .header{
+        color: $sec-color;
+        padding: 5px;
+    }
+    .content{
+        background-color: $off-white;
+    }
+    .meta{
+        color: $off-white2;
+        padding: 5px;
+    }
+    .one.wide.column{
+        padding: 0;
+    }
+}
+
+
+#about{
+    .title{
+        font-size: 3.5rem;
+        color: black;
+    }
+    padding-bottom: 3%;
+    padding-top: 10%;
+    .contain{
+        margin: 2% 10%;
+    }
+    background-color: $white;
+    h2,a{
+        color: $off-white2;
+    }
+    a:hover{
+        color: $sec-color;
+    }
+    i:hover{
+        color: black;
+    }
+}
+
+
+#contact{
+    .contain{
+        margin: 0 20%;
+    }
+    .title{
+        font-size: 3.5rem;
+        color: $prim-color;
+    }
+    text-align: center;
+    background-color: $off-white;
+    padding: 3% 0;
+    width: 100%;
+    .header{
+        color: $off-white;
+    }
+    .extra{
+        color: $prim-color;
+    }
+    i{
+        color: $prim-color;
+    }
+    i:hover{
+        color: $prim-color;
+    }
+    .content{
+        background-color: transparent;
+    }
+    .content:hover{
+        .header{
+            color: $prim-color;
+        }
+    }
+    
+}
+
+
+
+/* ________PROJECT CARDS_______  */
+
+/* PROJECT TITLE */
+.ui.card>.content>.header, .ui.cards>.card>.content>.header {
+    color: black;
+}
+
+/* PROJECT TECH DESCRIPTIONS */
+.ui.card .meta, .ui.cards>.card .meta {
+    color: $sec-color;
+}
+
+/* PROJECT CARD BACKGROUND */
+.ui.card>.content, .ui.cards>.card>.content{
+    background-color: $white;
+}
+
+@media only screen and (max-width: 600px){
+    .ui.three.doubling.cards>.card {
+    width: 100%;
+    }
+}
+
+
+/* ____________PROJECTS STYLING___________ */
+
+
+.projectSection{
+    padding-top:15px;
+    padding-bottom:15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.projectSection:hover{
+    box-shadow: 1px 1px 5px #888888;
+}
+
+/* ______LEADERSHIP STYLING______ */
+
+.leaderSections{
+    h1{
+        color: $sec-color;
+        font-size: 1.2em;
+        margin-bottom: 0;
+    }
+    h3{
+        color: $off-white2;
+        font-size: 1em;
+        margin-top: 0;  
+    }
+  margin-bottom: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.leaderSection{
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin: 1% 0;
+    width: 50%;
+    height: auto;
+    display: inline-block;
+}
+@media screen and (max-width: 1000px){
+    .leaderSection{
+        width: 90%;
+        margin: 10px auto;
+        
+    }
+}
+.leaderSection:hover{
+    box-shadow: 1px 1px 5px #888888;
+}
+
+.logo{
+    height:auto;
+    width: 100%;
+    padding-top: 30%;
+}
+h4{
+    font-size: 1em;
+}
+
+h4 > a{
+    color: $sec-color;
+}
+h4 > a:hover{
+    color: black;
+}
+
+
+/* VSA PAGE*/
+
+#vsa{
+    letter-spacing: 9px;
+    font-size:65px;
+}
+#president{
+    text-align:center;
+    writing-mode: vertical-rl;
+    letter-spacing: 45px;
+    font-size: 65px;
+    height:100%;
+}
+#president > a:hover{
+    color:$prim-color;
+}
+
+#publicity{
+    text-align:center;
+    writing-mode: vertical-rl;
+    letter-spacing: 35px;
+    font-size: 65px;
+    height:100%;
+}
+#publicity >a:hover{
+    color:$prim-color;
+}
+
+#intern{
+    text-align:center;
+    writing-mode: vertical-rl;
+    letter-spacing: 15px;
+    font-size: 65px;
+}
+#intern > a:hover{
+    color:$prim-color;
+}
+
+.vsaSection{
+    background-color: #D6DBB2;
+}
+.presidentSection{
+    background-color: #6D98BA;
+    a:hover{
+        color: $sec-color;
+    }
+}
+.publicitySection{
+    background-color: #FFBCB5;
+}
+.internSection{
+    background-color: #b8e1ff;
+}
+
+    
+
+
+
+
+
