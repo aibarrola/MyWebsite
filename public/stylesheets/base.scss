@@ -242,6 +242,12 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
     }
 }
 
+@media screen and (min-width:1700px){
+    .wordCaraousel{
+        font-size: 30px;
+    }
+}
+
 .flip2 { animation: flip2 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
 .flip3 { animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
 .flip4 { animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
@@ -438,7 +444,7 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
     }
     .title{
         font-size: 3.5rem;
-        color: $sec-color;
+        color: black;
     }
     h2{
         color: $off-white2;

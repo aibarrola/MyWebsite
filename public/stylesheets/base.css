@@ -189,6 +189,10 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
   margin-bottom: 40px;
   display: block; }
 
+@media screen and (min-width: 1700px) {
+  #splash .wordCaraousel {
+    font-size: 30px; } }
+
 #splash .flip2 {
   animation: flip2 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
 
@@ -397,7 +401,7 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 
 #contact .title {
   font-size: 3.5rem;
-  color: #2f3046; }
+  color: black; }
 
 #contact h2 {
   color: #8899AE;
