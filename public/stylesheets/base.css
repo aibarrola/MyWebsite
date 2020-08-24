@@ -429,7 +429,12 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 #footer {
   background-color: #e6edf5;
   padding-top: 1%;
-  padding-bottom: 1%; }
+  padding-bottom: 1%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;}
 
 #footer h2 {
   font-size: 1.1rem;
