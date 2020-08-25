@@ -42,13 +42,15 @@ a:hover {
   color: #589bee; }
 
 a span {
-  writing-mode: vertical-rl;
   padding-top: 0;
-  margin-top: 0; }
+  margin-top: 0;
+  color: #589bee;
+  font-weight: 300;
+ }
 
 a:hover span {
-  color: black;
-  writing-mode: vertical-rl; }
+  color: #589bee;
+}
 
 /* all inverted and circular icons  */
 i.inverted.bordered.icon, i.inverted.circular.icon {
@@ -89,7 +91,9 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 
 /* for all external link */
 .links {
-  text-decoration: underline; }
+  text-decoration: underline;
+  color: white;
+ }
 
 .links:hover {
   color: #e6edf5;
@@ -263,6 +267,10 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
   padding-top: 7%;
   padding-bottom: 8%; }
 
+  .projectHeader{
+    font-size: 3.5rem;
+}
+
 #project .contain {
   margin-left: 10%;
   margin-right: 10%; }
@@ -270,6 +278,10 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 #project .title {
   font-size: 3.5rem;
   color: black; }
+
+.leadership{
+    margin-top: 10%;
+}
 
 #project .meta {
   color: #8899AE; }
@@ -330,6 +342,7 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 #experience {
   z-index: 10;
   padding-top: 7%;
+  width: 100%;
   padding-bottom: 8%;
   background-color: #e6edf5; }
 
@@ -468,6 +481,31 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
 .projectSection:hover {
   box-shadow: 1px 1px 5px #888888; }
 
+  /* ______EXPERIENCE STYLING______ */
+.experienceSection{
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  margin: 1% 0;
+  width: 35%;
+  height: auto;
+  display: inline-block; 
+}
+.experienceSection:hover{
+    box-shadow: 1px 1px 5px #888888;
+}
+
+@media screen and (max-width: 1500px) {
+    .experienceSection {
+      width: 40%;
+      margin: 10px auto; } }
+  
+  @media screen and (max-width: 900px) {
+      .experienceSection {
+          width: 45%;
+          margin: 10px auto; } }
+  
+
 /* ______LEADERSHIP STYLING______ */
 .leaderSections {
   margin-bottom: 10px;
@@ -489,14 +527,19 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
   margin-bottom: 20px;
   border-radius: 10px;
   margin: 1% 0;
-  width: 50%;
+  width: 51%;
   height: auto;
   display: inline-block; }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1500px) {
   .leaderSection {
-    width: 90%;
+    width: 60%;
     margin: 10px auto; } }
+
+@media screen and (max-width: 900px) {
+    .leaderSection {
+        width: 80%;
+        margin: 10px auto; } }
 
 .leaderSection:hover {
   box-shadow: 1px 1px 5px #888888; }
