@@ -38,6 +38,10 @@ app.get("/projects/yelpcamp", function(req,res){
     res.render("projects/yelpcamp");
 });
 
+app.get("/projects/subtleasiannetwork", function(req,res){
+    res.render("projects/subtleasiannetwork");
+});
+
 app.get("/about", function(req,res){
     res.render("about");
 });
