@@ -200,7 +200,7 @@ i.inverted.bordered.icon, i.inverted.circular.icon {
   margin-left: 8%;
   margin-right: 8%; }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 400px) {
     #splash{
       height: 50vh;
       background-color: red;
